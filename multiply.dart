@@ -1,7 +1,5 @@
 int main() {
-  const hourlyRate = 19.5;
-  const hoursWorked = 10;
-  final totalCost = (hourlyRate * hoursWorked);
-  print(totalCost);
+  final int someNumber = 8;
+  print(someNumber.isEven);
   return 0 ;
 }

@@ -1,7 +1,6 @@
 void main() {
-  int a = 10;
-  int b = 20;
-  int sum = a + b;
-  print("The sum of $a and $b is $sum");
+  const testNumber = 441;
+  const oddEven = testNumber % 2;
+  print("The number $testNumber is $oddEven.");
   return;
-  }
+}
